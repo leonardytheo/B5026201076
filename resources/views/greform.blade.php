@@ -87,7 +87,8 @@
                     <label>Please input the word :</label>
                 </div>
                 <div class=row pt-3>
-                    <form name="regForm" id="regForm" action="phptugasphp.php">
+                    <form name="regForm" id="regForm" action="gre.php" method="GET">
+
                         <div>
                             <label>Word :</label>
                             <input type="text" id="word " name="word">

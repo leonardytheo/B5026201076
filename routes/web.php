@@ -28,4 +28,4 @@ Route::get('praktikum2','ViewController@showPraktikum2');
 Route::get('ets','ViewController@showETS');
 
 Route::get('htmltugasphp','ViewController@showTugasPHP');
-Route::get('phptugasphp','ViewController@resultTugasPHP');
+Route::post('phptugasphp','ViewController@resultTugasPHP');

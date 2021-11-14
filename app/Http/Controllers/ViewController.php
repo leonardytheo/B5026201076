@@ -16,10 +16,10 @@ class ViewController extends Controller
     }
     function showTugasPHP()
     {
-        return view('tugasphp');
+        return view('greform');
     }
     function resultTugasPHP()
     {
-        return view('phptugasphp');
+        return view('gre');
     }
 }
