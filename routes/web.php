@@ -47,3 +47,4 @@ Route::post('/pegawai/update','PegawaiController@update');
 
 //route untuk menghapus data
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
+

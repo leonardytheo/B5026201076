@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title> CSS  </title>
+        <style>
+            body{
+                background-color: #e6f3ff;
+            }
+            h1{
+                margin: 30px;
+                background: #66a3ff;
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-shadow: 2px 2px;
+                letter-spacing: 10px;
+                border-top-style: dotted;
+                border-right-style: solid;
+                border-bottom-style: dotted;
+                border-left-style: solid;
+                border-width: 3px;
+            }
+            table {
+                font-family: 'Times New Roman', Times, serif;
+                border-collapse: collapse;
+                width: 50%;
+            }
+          
+            td{
+                border: 1px solid #3d414d;
+                text-align: left;
+                padding: 8px;
+            }
+            th{
+                font-variant: small-caps;
+                border: 1px solid #3d414d;
+                text-align: left;
+                padding: 8px;
+            }
+          
+            tr:nth-child(even) {
+                background-color: #79c6cc;
+            }
+
+            .setketengah{
+                text-align: center;
+            }
+            .setlistkotak {
+                list-style-type: square;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="setketengah">Biodata</h1>
+        <p class="setketengah"><i>Berikut adalah biodata/profil singkat saya :</i></p><br>
+        <center>
+        <img src="pas foto.jfif"style="width: 200px;height: 300px;">   
+        <table>
+          <tr> 
+            <th>Data diri</th>
+            <th>Keterangan</th>
+          </tr>
+          <tr>
+            <td><b>Nama</b></td>
+            <td>Leonardy Wirya Theo</td>
+          </tr>
+          <tr>
+            <td><b>Tempat,Tanggal Lahir</b></td>
+            <td>Medan,30 Desember 2002</td>
+          </tr>
+          <tr>
+            <td><b>Jenis Kelamin</b></td>
+            <td>Laki laki</td>
+          </tr>
+          <tr>
+            <td><b>Instansi</b></td>
+            <td>Institut Teknologi Sepuluh Nopember</td>
+          </tr>
+          <tr>
+            <td><b>Jurusan</b></td>
+            <td>Sistem Informasi</td>
+          </tr>
+          <tr style="height : 80px">
+            <td><b>Hobi</b></td>
+            <td>
+              <ul class="setlistkotak">
+                <li>Main bulu tangkis</li>
+                <li>Rebahan</li>
+                <li>Main game</li>
+            </ul>
+          </td>            
+          </tr>
+        </table>
+    </center>
+    </body>
+</html>
