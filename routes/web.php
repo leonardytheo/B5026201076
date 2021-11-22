@@ -48,3 +48,15 @@ Route::post('/pegawai/update','PegawaiController@update');
 //route untuk menghapus data
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 
+
+Route::get('/tabeltugas','TugasController@index');
+
+Route::get('/tabeltugas/tambah','TugasController@tambah');
+
+Route::post('/tabeltugas/store','TugasController@store');
+
+Route::get('/tabeltugas/edit/{id}','TugasController@edit');
+
+Route::post('/tabeltugas/update','TugasController@update');
+
+Route::get('/tabeltugas/hapus/{id}','TugasController@hapus');
