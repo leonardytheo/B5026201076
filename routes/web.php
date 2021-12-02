@@ -49,6 +49,7 @@ Route::post('/pegawai/update','PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 
 
+//Tugas tabel
 Route::get('/tabeltugas','TugasController@index');
 
 Route::get('/tabeltugas/tambah','TugasController@tambah');
@@ -60,3 +61,12 @@ Route::get('/tabeltugas/edit/{id}','TugasController@edit');
 Route::post('/tabeltugas/update','TugasController@update');
 
 Route::get('/tabeltugas/hapus/{id}','TugasController@hapus');
+
+
+//Absen
+Route::get('/absen','AbsenController@index');
+Route::get('/absen/tambah','AbsenController@tambah');
+Route::post('/absen/store','AbsenController@store');
+Route::get('/absen/edit/{id}','AbsenController@edit');
+Route::post('/absen/update','AbsenController@update');
+Route::get('/absen/hapus/{id}','AbsenController@hapus');
