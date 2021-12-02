@@ -12,7 +12,7 @@
 		<script src="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
 </head>
 <body class="container m-4">
-    @yield('judulhalaman')
+    <h3>@yield('judulhalaman')</h3>
 @section('isikonten')
 @show
 </body>
