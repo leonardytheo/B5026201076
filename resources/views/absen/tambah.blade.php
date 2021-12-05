@@ -16,13 +16,12 @@
         <div class="form-group">
 		    <label class="col-sm-2 control-label">Pegawai :</label>
                 <div class="col-sm-3">
-        <select class="form-control" id="IDPegawai"  name="IDPegawai" required="required">
-            @foreach($pegawai as $p)
-                <option value="{{ $p->pegawai_id }}"> {{ $p->pegawai_nama }}</option>
-            @endforeach
-        </select>
-        </div>
-        </div>
+                    <select class="form-control" id="IDPegawai"  name="IDPegawai" required="required">
+                        @foreach($pegawai as $p)
+                            <option value="{{ $p->pegawai_id }}"> {{ $p->pegawai_nama }}</option>
+                        @endforeach
+                    </select>
+                </div>
         </div><br>
             <div class="form-group">
                 <label for="dtpickerdemo" class="col-sm-2 control-label">Tanggal :</label>

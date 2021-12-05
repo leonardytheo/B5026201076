@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tabel Tugas</title>
-</head>
-<body>
+@extends('layout.ceria')
+
+@section('title', 'TABEL TUGAS')
+
+@section('isikonten')
 
 	<h3>Data Tugas</h3>
 
@@ -36,5 +35,4 @@
 	</table>
 
 
-</body>
-</html>
+@endsection

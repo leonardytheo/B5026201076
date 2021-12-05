@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tabel Tugas</title>
-</head>
+@extends('layout.ceria')
+
+@section('title', 'Tambah Tugas')
+
+@section('isikonten')
 <body>
 
 	<h3>Data Tugas</h3>
@@ -21,5 +21,4 @@
 		<input type="submit" value="Simpan Data">
 	</form>
 
-</body>
-</html>
+@endsection

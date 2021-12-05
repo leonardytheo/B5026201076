@@ -11,7 +11,7 @@
 		{{ csrf_field() }}
         <div class="form-group">
 		    <input type="hidden" name="id" value="{{ $p->ID }}"> <br/>
-            <label class="col-sm-2 control-label"> Pegawai </label>
+            <label class="col-sm-2 control-label"> Pegawai :</label>
             <div class="col-sm-3">
                 <select class="form-control" id="IDPegawai" name="IDPegawai" required="required">
                     @foreach($pegawai as $peg)

@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
+<?php $__env->startSection('title', 'DATA PEGAWAI'); ?>
+
+<?php $__env->startSection('isikonten'); ?>
 <body>
 
 	<h2>www.malasngoding.com</h2>
@@ -37,6 +35,6 @@
 	</table>
 
 
-</body>
-</html>
-<?php /**PATH C:\xampp\htdocs\B5026201076\resources\views/pegawai/index.blade.php ENDPATH**/ ?>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layout.ceria', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\B5026201076\resources\views/pegawai/index.blade.php ENDPATH**/ ?>

@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
+@extends('layout.ceria')
+
+@section('title', 'Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com')
+
+@section('isikonten')
 <body>
 
 	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
@@ -26,5 +26,4 @@
 	@endforeach
 
 
-</body>
-</html>
+@endsection

@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Edit Tabel</title>
-</head>
-<body>
+@extends('layout.ceria')
+
+@section('title', 'EDIT TABEL')
+
+@section('isikonten')
 
 	<h3>Edit Tabel</h3>
 
@@ -25,5 +24,4 @@
 	@endforeach
 
 
-</body>
-</html>
+@endsection

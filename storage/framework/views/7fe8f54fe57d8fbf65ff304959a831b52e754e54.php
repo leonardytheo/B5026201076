@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
-<body>
+<?php $__env->startSection('title', 'Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com'); ?>
+
+<?php $__env->startSection('isikonten'); ?>
 
 	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
 	<h3>Data Pegawai</h3>
@@ -23,6 +20,6 @@
 		<input type="submit" value="Simpan Data">
 	</form>
 
-</body>
-</html>
-<?php /**PATH C:\xampp\htdocs\B5026201076\resources\views/pegawai/tambah.blade.php ENDPATH**/ ?>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layout.ceria', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\B5026201076\resources\views/pegawai/tambah.blade.php ENDPATH**/ ?>
