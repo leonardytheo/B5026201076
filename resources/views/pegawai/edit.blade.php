@@ -3,7 +3,7 @@
 @section('title', 'Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com')
 
 @section('isikonten')
-<body>
+
 
 	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
 	<h3>Edit Pegawai</h3>

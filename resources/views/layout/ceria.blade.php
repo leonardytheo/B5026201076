@@ -151,8 +151,7 @@
         <a href="/pegawai">Pegawai</a>
         <a href="/absen">Absen</a>
         <a href="/tabeltugas">Tabel tugas</a>
-        <a href="#">Minggu depan</a>
-        <a href="#">Praktikum</a>
+        <a href="/flashdisk">Flashdisk</a>
       </div>
 
       <div id="main">

@@ -1,6 +1,6 @@
 @extends('layout.ceria')
 
-@section('title', 'ABSEN PEGAWAI')
+
 
 @section('isikonten')
 
@@ -14,7 +14,7 @@
 	<form class="form-horizontal" action="/absen/store" method="post">
 		{{ csrf_field() }}
         <div class="form-group">
-		    <label class="col-sm-2 control-label">Pegawai :</label>
+		    <label class="col-sm-2 control-label" for="IDPegawai">Pegawai :</label>
                 <div class="col-sm-3">
                     <select class="form-control" id="IDPegawai"  name="IDPegawai" required="required">
                         @foreach($pegawai as $p)
@@ -27,7 +27,7 @@
                 <label for="dtpickerdemo" class="col-sm-2 control-label">Tanggal :</label>
                 <div class="col-sm-6">
                     <div class='col-sm-6 input-group date ' id='dtpickerdemo'>
-                        <input type='text' class="form-control" name="tanggal" />
+                        <input type='text' class="form-control" name="tanggal">
                         <span class="input-group-addon">
                             <span class="glyphicon glyphicon-calendar"></span>
                         </span>
@@ -48,7 +48,7 @@
                     <label for="hadir">HADIR</label></label><br>
                     <label class="radio-inline">
                     <input type="radio" id="tidak" name="status" value="T" checked="checked">
-                    <label for="tidak">TIDAK HADIR</label></label><br>
+                    <label for="tidak">TIDAK HADIR</label><br>
                     <a href="/absen" class="btn btn-primary"> Kembali</a>
 		            <input type="submit" class="btn btn-primary" value="Simpan Data">
                 </div>

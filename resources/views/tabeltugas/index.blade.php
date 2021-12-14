@@ -21,7 +21,7 @@
 		</tr>
 		@foreach($tabeltugas as $t)
 		<tr>
-			<td>{{ $t->IDPegawai }}</td>
+			<td>{{ $t->pegawai_nama }}</td>
 			<td>{{ $t->Tanggal }}</td>
 			<td>{{ $t->NamaTugas }}</td>
 			<td>{{ $t->Status }}</td>

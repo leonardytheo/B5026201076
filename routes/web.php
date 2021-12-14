@@ -48,6 +48,12 @@ Route::post('/pegawai/update','PegawaiController@update');
 //route untuk menghapus data
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 
+//route untuk searching data
+Route::get('/pegawai/cari','PegawaiController@cari');
+
+//route untuk view data
+Route::get('/pegawai/detail/{id}','PegawaiController@view');
+
 
 //Tugas tabel
 Route::get('/tabeltugas','TugasController@index');
@@ -70,3 +76,13 @@ Route::post('/absen/store','AbsenController@store');
 Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update','AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
+
+//flashdisk
+Route::get('/flashdisk','FlashdiskController@index');
+Route::get('/flashdisk/tambah','FlashdiskController@tambah');
+Route::post('/flashdisk/store','FlashdiskController@store');
+Route::get('/flashdisk/edit/{id}','FlashdiskController@edit');
+Route::post('/flashdisk/update','FlashdiskController@update');
+Route::get('/flashdisk/hapus/{id}','FlashdiskController@hapus');
+Route::get('/flashdisk/cari','FlashdiskController@cari');
+Route::get('/flashdisk/detail/{id}','FlashdiskController@view');
