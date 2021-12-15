@@ -86,3 +86,13 @@ Route::post('/flashdisk/update','FlashdiskController@update');
 Route::get('/flashdisk/hapus/{id}','FlashdiskController@hapus');
 Route::get('/flashdisk/cari','FlashdiskController@cari');
 Route::get('/flashdisk/detail/{id}','FlashdiskController@view');
+
+//Nilai Kuliah
+Route::get('/nilaikuliah','NilaiController@index');
+Route::get('/nilaikuliah/tambah','NilaiController@tambah');
+Route::post('/nilaikuliah/store','NilaiController@store');
+Route::get('/nilaikuliah/edit/{id}','NilaiController@edit');
+Route::post('/nilaikuliah/update','NilaiController@update');
+Route::get('/nilaikuliah/hapus/{id}','NilaiController@hapus');
+Route::get('/nilaikuliah/cari','NilaiController@cari');
+Route::get('/nilaikuliah/detail/{id}','NilaiController@view');
